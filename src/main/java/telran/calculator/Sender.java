@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import telran.calculator.service.CalculatorService;
 
 @Component
-public class Sender {
+public class Sender { // V.R. Why the name is "Sender"? What it is going to send?
 	Map<String, CalculatorService> mapServices;
 	
 	@Autowired 

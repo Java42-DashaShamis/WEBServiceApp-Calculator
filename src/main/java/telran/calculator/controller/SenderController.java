@@ -16,7 +16,7 @@ import telran.calculator.service.CalculatorService;
 
 @RestController
 @RequestMapping("/calculator")
-public class SenderController {
+public class SenderController { // V.R. Why SenderController?
 	@Autowired
 	Sender sender;
 	@PostMapping
